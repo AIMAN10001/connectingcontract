@@ -209,14 +209,16 @@ export const NFTMarketplaceProvider = ({ children }) => {
         //   const connection = await web3Modal.connect();
         //   const provider = new ethers.providers.Web3Provider(connection);
 
-        const provider = new ethers.providers.JsonRpcProvider(
-          "https://polygon-mumbai.g.alchemy.com/v2/j56K1VBzhBDVfqRJpcwxNXcr7-hKln0j"
-        );
+        // const provider = new ethers.providers.JsonRpcProvider(
+        //   "https://polygon-mumbai.g.alchemy.com/v2/j56K1VBzhBDVfqRJpcwxNXcr7-hKln0j"
+        // );
+
+        const provider = new ethers.providers.JsonRpcProvider();
         console.log(provider);
         const contract = fetchContract(provider);
 
         const data = await contract.fetchMarketItems();
-        // console.log(data);
+        console.log(data);
 
         const items = await Promise.all(
           data.map(
@@ -254,9 +256,9 @@ export const NFTMarketplaceProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    // if (currentAccount) {
-    fetchNFTs();
-    // }
+    if (currentAccount) {
+      fetchNFTs();
+    }
   }, []);
 
   //--- fetch my nft or listed nfts
