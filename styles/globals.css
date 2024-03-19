@@ -17,7 +17,7 @@
     -0.3rem -0.3rem 1rem var(--shadow-dark-color);
 } */
 /* Light Theme */
-:root.light {
+/* :root.light {
   --icons-color: #4c5773;
   --icons-light-color: #4c577341;
   --icons-bg-color: #e2e6e9;
@@ -32,10 +32,10 @@
   --box-shadow-2: 1px 1px 2px #4c5773, -1px -1px 2px #4c5773;
   --box-shadow-3: 0.1rem 1rem 1rem var(--shadow-dark-color),
     -1rem -1rem 1rem var(--shadow-light-color);
-}
+} */
 
 /* Dark Theme */
-:root.dark {
+/* :root.dark {
   --icons-color: #ffdf2b;
   --icons-light-color: #ffdf2b57;
   --icons-bg-color: #ffdf2b;
@@ -50,7 +50,7 @@
   --box-shadow-2: 1px 1px 2px #ffdf2b, -1px -1px 2px #ffdf2b;
   --box-shadow-3: 0.1rem 0.5rem 0.5rem var(--shadow-dark-color),
     -1rem -1rem 1rem var(--shadow-light-color);
-}
+} */
 
 /* Default to light theme */
 :root {
@@ -125,7 +125,7 @@
 }
 
 /* Red Theme */
-:root.red {
+/* :root.red {
   --icons-color: #e74c3c;
   --icons-light-color: #e74c3c57;
   --icons-bg-color: #e74c3c;
@@ -140,7 +140,7 @@
   --box-shadow-2: 1px 1px 2px #e74c3c, -1px -1px 2px #e74c3c;
   --box-shadow-3: 0.1rem 0.6rem 0.6rem var(--shadow-dark-color),
     -1rem -1rem 1rem var(--shadow-light-color);
-}
+} */
 
 /* Maroon Theme */
 :root.maroon {

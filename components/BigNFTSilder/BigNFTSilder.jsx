@@ -48,7 +48,7 @@ const BigNFTSilder = () => {
     {
       title: "Gym NFT",
       id: 3,
-      name: "Apee Begum",
+      name: "Nico Robin",
       collection: "GYm",
       price: "0000064 ETH",
       like: 243,
@@ -64,7 +64,7 @@ const BigNFTSilder = () => {
     {
       title: "Home NFT",
       id: 4,
-      name: "Esrat Jahan Jui",
+      name: "Nami",
       collection: "GYm",
       price: "4664 ETH",
       like: 243,

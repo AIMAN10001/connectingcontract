@@ -213,7 +213,9 @@ export const NFTMarketplaceProvider = ({ children }) => {
         //   "https://polygon-mumbai.g.alchemy.com/v2/j56K1VBzhBDVfqRJpcwxNXcr7-hKln0j"
         // );
 
-        const provider = new ethers.providers.JsonRpcProvider();
+        const provider = new ethers.providers.JsonRpcProvider(
+          "https://polygon-mumbai.g.alchemy.com/v2/2F3S81bANX9aYJBDq4EPhF9dcziWumG5"
+        );
         console.log(provider);
         const contract = fetchContract(provider);
 

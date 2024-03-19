@@ -31,6 +31,7 @@
 .subscribe_box_left_box small {
   font-size: 1rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .subscribe_box_left_box span {
@@ -44,10 +45,10 @@
   border: 1px solid var(--icons-color);
   transition: all 0.3s ease-in;
 }
-.subscribe_box_left_box span:hover {
+/* .subscribe_box_left_box span:hover {
   background-color: #f4998a;
   color: var(--icons-color);
-}
+} */
 
 .subscribe_box_left_input {
   margin-top: 3rem;

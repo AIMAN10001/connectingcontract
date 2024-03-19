@@ -121,17 +121,11 @@ const NavBar = () => {
     let newTheme;
 
     // Switch between light, dark, blue, green, purple, red, maroon, teal themes
-    if (theme === "light") {
-      newTheme = "dark";
-    } else if (theme === "dark") {
-      newTheme = "blue";
-    } else if (theme === "blue") {
+    if (theme === "blue") {
       newTheme = "green";
     } else if (theme === "green") {
       newTheme = "purple";
     } else if (theme === "purple") {
-      newTheme = "red";
-    } else if (theme === "red") {
       newTheme = "maroon";
     } else if (theme === "maroon") {
       newTheme = "teal";
@@ -140,7 +134,7 @@ const NavBar = () => {
     } else if (theme === "gold") {
       newTheme = "pink";
     } else {
-      newTheme = "light";
+      newTheme = "blue";
     }
 
     setTheme(newTheme);
